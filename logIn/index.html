@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Вход в чат</title>
+    <link rel ="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="container" id="container">
+    <div class="form-container sing-in-container">
+        <form action="#">
+            <h1>Создание аккаунта</h1>
+            <input type="text" placeholder="Name" />
+            <input type="email" placeholder="Email" />
+            <input type="password" placeholder="Password" />
+            <button>Submit</button>
+        </form>
+    </div>
+    <div class="form-container log-in-container">
+        <form action="#">
+            <h1>Авторизация</h1>
+            <input type="email" placeholder="Email" />
+            <input type="password" placeholder="Password" />
+            <button>Submit</button>
+        </form>
+    </div>
+    <div class="overlay-container">
+        <div class="overlay">
+            <div class="overlay-panel overlay-left">
+                <h2>Теперь Вы можете войти в свой аккаунт</h2>
+                <button class="ghost" id="signIn">Log In</button>
+            </div>
+            <div class="overlay-panel overlay-right">
+                <h1>Привет!</h1>
+                <p>У Вас нет аккаунта? Вы можете создать его!</p>
+                <button class="ghost" id="logIn">Sign In</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="button.js"></script>
+</body>
+</html>
